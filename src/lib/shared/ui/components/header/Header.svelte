@@ -17,10 +17,10 @@
 		<nav
 			class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center"
 		>
-			<a sveltekit:prefetch class="mr-5 hover:text-gray-900" href="/">Home</a>
-			<a sveltekit:prefetch class="mr-5 hover:text-gray-900" href="/about">About</a>
-			<a sveltekit:prefetch class="mr-5 hover:text-gray-900" href="/settings">Settings</a>
-			<a sveltekit:prefetch class="mr-5 hover:text-gray-900" href="/users">Users</a>
+			<a sveltekit:prefetch class="mr-5 hover:text-gray-900" href="/">หน้าแรก</a>
+			<a sveltekit:prefetch class="mr-5 hover:text-gray-900" href="/search">ค้นหา🚀</a>
+			<a sveltekit:prefetch class="mr-5 hover:text-gray-900" href="/settings">ตั้งค่า</a>
+			<a sveltekit:prefetch class="mr-5 hover:text-gray-900" href="/users">ผู้ใช้</a>
 		</nav>
 	</div>
 </header>

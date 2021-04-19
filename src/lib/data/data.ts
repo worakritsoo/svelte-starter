@@ -2,33 +2,19 @@ import { UserModel } from '$lib/models/classes';
 
 export const userData: UserModel[] = [
 	{
-		name: 'Ross',
-		job: 'Professor',
-		id: 'ross',
+		name: 'วรกฤช',
+		job: 'นรค.',
+		id: '510818',
 	},
 	{
-		name: 'Chandler',
-		job: 'Processor',
-		id: 'chandler',
+		name: 'ฟิวส์',
+		job: 'ดูแล',
+		id: 'admin',
 	},
-	{
-		name: 'Joe',
-		job: 'Actor',
-		id: 'joe',
+		{
+		name: 'ลี่',
+		job: 'ออกแบบ',
+		id: 'design',
 	},
-	{
-		name: 'Rachel',
-		job: 'Designer',
-		id: 'rachel',
-	},
-	{
-		name: 'Monica',
-		job: 'Chef',
-		id: 'monica',
-	},
-	{
-		name: 'Phoebe',
-		job: 'Masseuse',
-		id: 'phoebe',
-	},
+	
 ].map((value) => new UserModel().deserialize(value));
