@@ -2,22 +2,11 @@
 </style>
 
 <script lang="ts">
-	import { JSONHttpUtil } from '$lib/core';
 	import Title from '$components/title/Title.svelte';
 
 	// import Counter from '$lib/Counter.svelte';
 
-	import { Logger, LoggerUtils } from '$lib/utils';
 	import { onMount } from 'svelte';
-
-	const logger: Logger = LoggerUtils.getInstance('Index');
-
-	onMount(async () => {
-		const data = await JSONHttpUtil.get<any>(
-			'https://jsonplaceholder.typicode.com/photos?_limit=20',
-		);
-		// logger.debug(data);
-	});
 </script>
 
 <Title title="Home" />
